@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo&family=Nunito+Sans:wght@600&family=Poppins:ital,wght@0,100;1,300&display=swap');
+/* yarn add @materialui/core
+yarn add @materialui/icons */
+
+.App {
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fafafa;
+}
+
+.Navbar {
+  background-color: #D9D0DE;
+  width: 100%;
+  height: 50px;
+  font-family: 'Chivo', sans-serif;
+  display: flex;
+}
+
+/* all the links go here! */
+
+.Navbar .leftSide {
+  flex: 50%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.Navbar .leftSide .links a {
+  max-height: 50px;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  margin-left: 15px;
+}
+.Navbar .leftSide button {
+  display: none;
+  margin-left: 20px;
+
+}
+
+.Navbar .leftSide #hidden {
+  display: flex;
+}
+.Navbar .rightSide {
+  flex: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 25px;
+}
+
+.rightSide input {
+  width: 220px;
+  height: 30px;
+  border: none;
+  border-radius: 4px;
+  padding-left: 10px;
+  font-size: 14px;
+  font-family: 'Chivo', sans-serif;
+  color: black;
+}
+
+.rightSide button {
+  height: 32px;
+  width: 70px;
+  font-size: 15px;
+  font-family: 'Chivo', sans-serif;
+  border: none;
+  border-radius: 4px;
+  background-color: #87255B;
+  color: white;
+  margin-left: 10px;
+  padding-top: 5px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 850px) {
+  .Navbar .leftSide .links a {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .Navbar .leftSide button {
+    display: flex;
+  }
+
+  .Navbar .leftSide .links {
+    display: none;
+  }
+
+  .Navbar .leftSide #hidden {
+    position: absolute;
+    left: 0px;
+    top: 50px;
+    height: auto;
+    max-height: 230px;
+    width: 100%;
+    background-color: #D9D0DE;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Navbar .leftSide #hidden a {
+    margin: 10px;
+    font-size: 25px;
+  }
+}
+
+  
+
