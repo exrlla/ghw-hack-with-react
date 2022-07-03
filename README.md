@@ -1,9 +1,16 @@
-# 🪴 Hacking with React 🪴
+<p align="center">
+<img width="600" alt="ghw info" src="https://user-images.githubusercontent.com/65576812/177051503-443b30ac-832d-401f-a1ce-ba943a4d8724.png">
+<p />
+
+<p>
+<img align="left" src="https://user-images.githubusercontent.com/65576812/177051386-119aad90-f378-4d6b-90ff-1dbd51d0aa0e.png" width="170px">
 
 Hey there! It's [Ellie](https://el-lie.ju.mp) from [Major League Hacking](https://mlh.io/), the global hacker community! This repository includes everything you need to get started on a super cool React app that you'll be able to learn from to ~ elevate your web apps! 
 
 This repo was made for the Hack with React workshop at Global Hack Week: INIT, a week long event to kickoff the Major League Hacking 2023 Season! Want more resources from ellie? Check out the [mlh-ellie](https://mlh-ellie.uwu.ai/) stream resources site! 
 
+<p />
+<br clear="left"/>
 
 ## Get Started! 
 - fork this repo, clone, and then open in VSCode! 
@@ -42,3 +49,13 @@ cd my-app
 ```
 yarn && yarn start
 ```
+
+the development server will start! You'll view it on http://localhost:3000/ 
+
+<br />
+
+#### You can now get started with coding in React! Want some ideas? Check out Ellie's resources on some ways to get started! 
+
+<p align="center">
+<img width="400" alt="ghw info" src="https://user-images.githubusercontent.com/65576812/177051503-443b30ac-832d-401f-a1ce-ba943a4d8724.png">
+<p />
