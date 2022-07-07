@@ -23,18 +23,25 @@ https://nodejs.org/en/download/
 
 
 ### Download yarn 
+For more information on installing yarn, visit [this page](https://yarnpkg.com/getting-started/install) to get started!
+
+#### Node.js <16.10
 ```
 npm install --global yarn
 ```
-[docs](https://classic.yarnpkg.com/lang/en/docs/install/#mac-stable)    
 
-double check to make sure you have it! 
+#### Node.js >=16.10
 ```
-yarn --version  
+corepack enable
+```  
+
+Double check to make sure you have it via
+```
+yarn --version
 ```
 
 ## Let's set up React! 
-This repo already includes the react template imported. If you happen to be working on your own repo, you can use the command below in your terminal to get the React environment setup. 
+This repo already includes the react template imported. I also made a few comments to explain what some of the files do. If you happen to be working on your own repo, you can use the command below in your terminal to get the React environment setup. 
 
 ```
 yarn create react-app my-app
