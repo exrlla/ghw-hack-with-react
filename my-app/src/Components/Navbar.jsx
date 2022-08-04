@@ -1,5 +1,6 @@
 import React, {useState} from 'react'; 
 import '../stylesheets/App.css';
+import GHWinitGirl from '../assets/cutemlhgirl.png'
 
 function Navbar() {
     const [showLinks, setShowLinks] = useState(false);
@@ -10,6 +11,7 @@ function Navbar() {
                     <a href='/'>Home</a>
                     <a href='/about'>About</a>
                     <a href='/contact'>Contact</a>
+                    <img className="mlh-icon" src={GHWinitGirl} alt='GHWinitGirl'></img>
                 </div>
                 <button onClick={() => setShowLinks(!showLinks)}>Open </button>
             </div>

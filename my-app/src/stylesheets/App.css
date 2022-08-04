@@ -72,6 +72,11 @@ padding-right: 20px;
     margin-left: 10px;
 }
 
+.mlh-icon {
+    width: 30px;
+    padding-left: 10px;
+}
+
 @media only screen and (max-width: 850px) {
     .navbar .leftSide .links a {
         font-size: 20px;
