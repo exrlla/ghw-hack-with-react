@@ -9,7 +9,6 @@ function App() {
     <>
     <div className="App">
       <header className="App-header">
-        <p>Hello</p>
         <div
         className="text-component"> 
         {LinksData.links.map((segment) => (

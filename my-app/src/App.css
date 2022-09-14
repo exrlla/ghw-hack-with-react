@@ -8,12 +8,17 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   color: white;
 }
 
 .header-text {
   font-size: large;
   font-family: 'Roboto', sans-serif;
+}
+
+.button-lines {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 30px;
 }

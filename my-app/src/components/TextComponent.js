@@ -11,7 +11,7 @@ export default function TextComponent({
     return (
         <>
         <h3 className='header-text'>{name}</h3>
-        <div>
+        <div className='button-lines'>
         <a href={slides}>
             <button className="button-name" type='button'>
                 slides
